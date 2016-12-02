@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Make A Reservation</title>
+
+	<style>
+		body {
+			background-color : #F5F2F2;
+		}
+
+		.layout {
+			margin-left : 400px;
+			margin-top : 20px;
+		}
+
+		.box {
+			width : 512px;
+			height : 70px;
+			background-color : lightblue;
+			margin-left : 400px;
+		}
+	</style>
+
+	
+</head>
+<body>
+	
+
+		<div class = "wrapper">
+		
+		<div class = "layout">
+			<div class = "signup" style = "margin-bottom : 1px">
+				<p>Already a member? <a href = "login.php">Sign in</a></p>
+			</div>
+
+			<form method="post" name="signup" action="proses_daftar.php">
+				<div class = "name">
+					<input type = "text" placeholder = "First Name" name="firstname" style = "width : 250px; height : 45px; border-radius : 3px; border : 1px solid lightgrey; float : left">
+
+					<input type = "text" placeholder = "Last Name" name="lastname" style = "width : 250px; height : 45px; border-radius : 3px; border : 1px solid lightgrey; float : left; margin-left : 10px"><br><br><br>
+
+					<input type = "text" placeholder = "User Name" name="username" style = "width : 250px; height : 45px; margin-top : 10px; border-radius : 3px; border : 1px solid lightgrey; float : left">
+
+					<input type = "password" placeholder = "Password" name="password" style = "width : 250px; height : 45px; margin-top : 10px; border-radius : 3px; border : 1px solid lightgrey; float : left; margin-left : 10px">
+					
+				</div>
+				<br><br><br><br>
+				<div class = "special">
+									<input type = "email" placeholder = Email name="email" style = "width : 512px; height : 43px; border : 1px solid lightgrey; border-radius : 3px;">
+				</div>
+
+				<br><br><br>
+				
+				<div class = "reserve">
+					<input type = "submit" name="Submit" value = "Choose Your Menu" style = "width : 200px; height : 50px; margin-top : -20px; float : left; color : white; background-color : #D93D3D; border-collapse : collapse; border : 0px; border-radius : 3px; font-size : 15px">
+				</div>
+				
+			</form>
+
+		</div>
+	</div>
+
+</body>
+</html>
